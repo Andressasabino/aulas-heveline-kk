@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main()
+{
+ int x,y,resut,som,dif,prod,quoc,resto;
+  printf("digite o numero:\n");
+  scanf("%d",&x);
+  
+  printf("digite outro numero:\n");
+  scanf("%d",&y);
+  
+  som= x + y;
+  printf("Soma = %d + %d = %d\n", x, y, som);
+
+  dif= x - y;
+  printf("Diferença = %d - %d = %d\n",x, y, dif);
+
+  prod = x * y;
+  printf("Produto = %d + %d = %d\n",x, y, prod);
+  
+  quoc = x / y;
+  printf("Quociente = %d + %d = %d\n",x, y, quoc);
+  
+  resto = x % y;
+  printf("Resto = %d %% %d = %d\n",x, y, resto);
+  
+  return 0;
+}
