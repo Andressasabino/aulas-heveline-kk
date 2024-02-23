@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main()
+{
+ int x,y,a,b,c,d,e;
+  printf("digite o numero:\n");
+  scanf("%d",&x);
+  
+  printf("digite outro numero:\n");
+  scanf("%d",&y);
+  
+  a = x / 4 + y;
+  
+  b = x % 4 + y;
+  
+  c = (x/6+x/3)/4;
+  
+  d = x % y * 6;
+  
+  e = (x % 6 + x % 3)% 4;
+
+  
+  printf("\n a = %d \n b = %d \n c = %d \n d = %d \n e = %d", a, b, c, d, e);
+  
+  return 0;
+}
