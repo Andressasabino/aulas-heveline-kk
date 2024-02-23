@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+ int v;
+ float reaju,final;
+ printf("digite a primeira nota:\n");
+ scanf("%d",&v);
+  
+  
+  reaju = (v*9.0)/100;
+  final = v - reaju;
+  
+  printf("\n O reajuste foi 9%% = %.2f\n", reaju);
+  printf("\n O valor final foi = %.2f\n", final);
+  return 0;
+}
