@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+ float nota1, nota2, nota3, media, final;
+ int peso1, peso2, peso3;
+ 
+ printf("Digite suas tres notas:\n");
+ scanf("%f %f %f", &nota1, &nota2, &nota3);
+ media = (nota1 + nota2 + nota3)/3;
+ printf("Sua media aritimetica foi: %.2f\n", media);
+ 
+ 
+ printf("Digite os tres pesos pra nota:\n");
+ scanf("%d %d %d", &peso1, &peso2, &peso3);
+ final = (peso1*nota1 + peso2*nota2 + peso3*nota3)/(peso1 + peso2 + peso3);
+ printf("Sua media ponderada foi: %.2f\n", final);
+}
